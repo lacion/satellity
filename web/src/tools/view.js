@@ -1,5 +1,7 @@
 import Portrait from './portrait.js';
+import Instagram from './instagram.js';
 
 export default {
-  Portrait: Portrait
+  Portrait: Portrait,
+  Instagram: Instagram
 };

@@ -27,6 +27,7 @@ class MainLayout extends Component {
           <Switch>
             <Route exact path='/' component={Topic.Index} />
             <Route exact path='/avatar' component={Tool.Portrait} />
+            <Route exact path='/instagram' component={Tool.Instagram} />
             <Route exact path='/dashboard' component={Home.Dashboard} />
             <Route exact path='/user/edit' component={User.Edit} />
             <Route path='/users/:id' component={User.Show} />
